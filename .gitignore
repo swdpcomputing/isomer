@@ -1,7 +1,7 @@
-#Specific files / folders
-saves/
-Build/
-JuceLibraryCode/
+# Specific files / folders
+.saves/*
+.Builds/*
+.JuceLibraryCode/*
 
 # Prerequisites
 *.d
@@ -35,3 +35,76 @@ JuceLibraryCode/
 *.exe
 *.out
 *.app
+
+JuceLibraryCode/ReadMe.txt
+JuceLibraryCode/AppConfig.h
+JuceLibraryCode/include_juce_audio_basics.cpp
+JuceLibraryCode/include_juce_audio_basics.mm
+JuceLibraryCode/include_juce_audio_devices.cpp
+JuceLibraryCode/include_juce_audio_devices.mm
+JuceLibraryCode/include_juce_audio_formats.cpp
+JuceLibraryCode/include_juce_audio_formats.mm
+JuceLibraryCode/include_juce_audio_processors.cpp
+JuceLibraryCode/include_juce_audio_processors.mm
+JuceLibraryCode/include_juce_core.cpp
+JuceLibraryCode/include_juce_core.mm
+JuceLibraryCode/include_juce_cryptography.cpp
+JuceLibraryCode/include_juce_cryptography.mm
+JuceLibraryCode/include_juce_data_structures.cpp
+JuceLibraryCode/include_juce_data_structures.mm
+JuceLibraryCode/include_juce_events.cpp
+JuceLibraryCode/include_juce_events.mm
+JuceLibraryCode/include_juce_graphics.cpp
+JuceLibraryCode/include_juce_graphics.mm
+JuceLibraryCode/include_juce_gui_basics.cpp
+JuceLibraryCode/include_juce_gui_basics.mm
+JuceLibraryCode/include_juce_gui_extra.cpp
+JuceLibraryCode/include_juce_gui_extra.mm
+JuceLibraryCode/include_juce_opengl.cpp
+JuceLibraryCode/include_juce_opengl.mm
+JuceLibraryCode/include_juce_video.cpp
+JuceLibraryCode/include_juce_video.mm
+JuceLibraryCode/JuceHeader.h
+saves/default.isf
+images/isomerIconBasic.jpeg
+images/MolView.png
+images/App Icon/isomerIcon_128.jpg
+images/App Icon/isomerIcon_16.jpg
+images/App Icon/isomerIcon_256.jpg
+images/App Icon/isomerIcon_32.jpg
+images/App Icon/isomerIcon_512.jpg
+Builds/MacOSX/Info-App.plist
+Builds/MacOSX/Isomer2.xcodeproj/project.pbxproj
+Builds/MacOSX/Isomer2.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+Builds/MacOSX/Isomer2.xcodeproj/project.xcworkspace/xcuserdata/louise.xcuserdatad/UserInterfaceState.xcuserstate
+Builds/MacOSX/Isomer2.xcodeproj/project.xcworkspace/xcuserdata/stephenpowell.xcuserdatad/UserInterfaceState.xcuserstate
+Builds/MacOSX/Isomer2.xcodeproj/xcuserdata/louise.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+Builds/MacOSX/Isomer2.xcodeproj/xcuserdata/louise.xcuserdatad/xcschemes/Isomer2 - App.xcscheme
+Builds/MacOSX/Isomer2.xcodeproj/xcuserdata/louise.xcuserdatad/xcschemes/xcschememanagement.plist
+Builds/MacOSX/Isomer2.xcodeproj/xcuserdata/stephenpowell.xcuserdatad/xcschemes/Isomer2 - App.xcscheme
+Builds/MacOSX/Isomer2.xcodeproj/xcuserdata/stephenpowell.xcuserdatad/xcschemes/xcschememanagement.plist
+Builds/MacOSX/RecentFilesMenuTemplate.nib
+manual/figures/Envelope WIndow - Envelope WIndow.jpg
+manual/figures/Envelope WIndow - Rhythm Box.jpg
+manual/figures/Envelope WIndow - Upwards Envelope.jpg
+manual/figures/Envelope WIndow - Utlities.jpg
+manual/figures/Introduction - Example 1.jpeg
+manual/figures/Main Window - Edit Sequence.jpg
+manual/figures/Main Window - File.jpg
+manual/figures/Main Window - Global Settings.jpg
+manual/figures/Main Window - Main Window.jpg
+manual/figures/Main Window - New Sequence.jpg
+manual/figures/Main Window - Transports.jpg
+manual/figures/Main Window - Windows.jpg
+manual/figures/Map Window - Example 1.jpg
+manual/figures/Map Window - Example 2.jpg
+manual/figures/Map Window - Map Window.jpg
+manual/figures/Map Window - Node Map.jpg
+manual/figures/Map Window - Node Screen Selection.jpg
+manual/figures/Map Window - Node Selection.jpg
+manual/figures/Node Settings Window - Node Settings Window.jpg
+manual/figures/Sequence Edit Window - Sequence Edit Window.jpg
+manual/figures/Settings Window - Activation.jpg
+manual/figures/Settings Window - File.jpg
+manual/figures/Settings Window - Midi.jpg
+manual/Isomer Manual.gdoc
