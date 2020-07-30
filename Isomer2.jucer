@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ltEoUz" name="Isomer2" displaySplashScreen="0" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.Isomer2" includeBinaryInAppConfig="1"
+              cppLanguageStandard="11" jucerVersion="5.2.1" companyCopyright="">
+  <MAINGROUP id="MO6FkC" name="Isomer2">
+    <GROUP id="{A61F9399-E4AC-57B5-3C98-D192BFDE7653}" name="Source">
+      <FILE id="GACIXA" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="IKWD8f" name="IsomerObject.h" compile="0" resource="0" file="Source/IsomerObject.h"/>
+      <FILE id="O0PZri" name="IsomerCommandManager.cpp" compile="1" resource="0"
+            file="Source/IsomerCommandManager.cpp"/>
+      <FILE id="QtCuke" name="IsomerCommandManager.h" compile="0" resource="0"
+            file="Source/IsomerCommandManager.h"/>
+      <GROUP id="{B0FEA6EF-71AF-EA77-F074-45B38F733E32}" name="GUI">
+        <FILE id="h9HkxH" name="IsomerComponent.h" compile="0" resource="0"
+              file="Source/IsomerComponent.h"/>
+        <FILE id="IZaqI4" name="GUIReceiver.cpp" compile="1" resource="0" file="Source/GUIReceiver.cpp"/>
+        <FILE id="Zh6Tdm" name="GUIReceiver.h" compile="0" resource="0" file="Source/GUIReceiver.h"/>
+        <FILE id="wx1ep0" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/MainComponent.cpp"/>
+        <FILE id="NfzxNH" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+        <FILE id="PXagHj" name="MasterSection.cpp" compile="1" resource="0"
+              file="Source/MasterSection.cpp"/>
+        <FILE id="FyHzzy" name="MasterSection.h" compile="0" resource="0" file="Source/MasterSection.h"/>
+        <FILE id="hkMDMN" name="TransportSection.cpp" compile="1" resource="0"
+              file="Source/TransportSection.cpp"/>
+        <FILE id="ICR7QS" name="TransportSection.h" compile="0" resource="0"
+              file="Source/TransportSection.h"/>
+        <FILE id="gjqDe8" name="SequenceSection.cpp" compile="1" resource="0"
+              file="Source/SequenceSection.cpp"/>
+        <FILE id="mvlbSL" name="SequenceSection.h" compile="0" resource="0"
+              file="Source/SequenceSection.h"/>
+        <FILE id="RqGu5i" name="IsomerLookAndFeels.cpp" compile="1" resource="0"
+              file="Source/IsomerLookAndFeels.cpp"/>
+        <FILE id="bSIEUC" name="IsomerLookAndFeels.h" compile="0" resource="0"
+              file="Source/IsomerLookAndFeels.h"/>
+      </GROUP>
+      <GROUP id="{FA0BDEF9-13B6-281E-DC78-BD3298464FFE}" name="MapGUI">
+        <FILE id="iJAniB" name="MapWindow.h" compile="0" resource="0" file="Source/MapWindow.h"/>
+        <FILE id="JVUobp" name="MapGUI.cpp" compile="1" resource="0" file="Source/MapGUI.cpp"/>
+        <FILE id="IMKMoo" name="MapGUI.h" compile="0" resource="0" file="Source/MapGUI.h"/>
+        <FILE id="Zzw0ew" name="MapNodeSelection.cpp" compile="1" resource="0"
+              file="Source/MapNodeSelection.cpp"/>
+        <FILE id="tX2Og8" name="MapNodeSelection.h" compile="0" resource="0"
+              file="Source/MapNodeSelection.h"/>
+        <FILE id="oYdpTF" name="MapArea.cpp" compile="1" resource="0" file="Source/MapArea.cpp"/>
+        <FILE id="jWHp28" name="MapArea.h" compile="0" resource="0" file="Source/MapArea.h"/>
+        <FILE id="aPTKpG" name="MapNodeIcon.cpp" compile="1" resource="0" file="Source/MapNodeIcon.cpp"/>
+        <FILE id="lmfFJ0" name="MapNodeIcon.h" compile="0" resource="0" file="Source/MapNodeIcon.h"/>
+      </GROUP>
+      <GROUP id="{CA0C99DD-02C8-B4DD-8739-C2EC4D308609}" name="Node">
+        <FILE id="Q3GkeA" name="NodeManager.cpp" compile="1" resource="0" file="Source/NodeManager.cpp"/>
+        <FILE id="w3Lv5T" name="NodeManager.h" compile="0" resource="0" file="Source/NodeManager.h"/>
+        <FILE id="MBT9Ys" name="NodeData.cpp" compile="1" resource="0" file="Source/NodeData.cpp"/>
+        <FILE id="ojn0g1" name="NodeData.h" compile="0" resource="0" file="Source/NodeData.h"/>
+      </GROUP>
+      <GROUP id="{59688C1D-B81E-AC7A-64B9-F2A4DE2F69EF}" name="Transport">
+        <FILE id="K3aayL" name="MultiTransport.cpp" compile="1" resource="0"
+              file="Source/MultiTransport.cpp"/>
+        <FILE id="RTlsRA" name="MultiTransport.h" compile="0" resource="0"
+              file="Source/MultiTransport.h"/>
+        <FILE id="Y61lPR" name="Transport.cpp" compile="1" resource="0" file="Source/Transport.cpp"/>
+        <FILE id="WUCTxt" name="Transport.h" compile="0" resource="0" file="Source/Transport.h"/>
+      </GROUP>
+      <GROUP id="{94D39D78-0F72-060C-02EA-1837EADD1E19}" name="Sequence">
+        <FILE id="cftffr" name="Sequences.cpp" compile="1" resource="0" file="Source/Sequences.cpp"/>
+        <FILE id="BgnjUw" name="Sequences.h" compile="0" resource="0" file="Source/Sequences.h"/>
+        <FILE id="V5wFwV" name="Sequence.cpp" compile="1" resource="0" file="Source/Sequence.cpp"/>
+        <FILE id="Oi82t1" name="Sequence.h" compile="0" resource="0" file="Source/Sequence.h"/>
+      </GROUP>
+      <GROUP id="{31FB796B-6618-81FE-1FD3-C6767CD85C7F}" name="State">
+        <FILE id="SSM8CM" name="IsomerVTU.h" compile="0" resource="0" file="Source/IsomerVTU.h"/>
+        <FILE id="Sjo1cz" name="ValueTreeManager.cpp" compile="1" resource="0"
+              file="Source/ValueTreeManager.cpp"/>
+        <FILE id="NqClD3" name="ValueTreeManager.h" compile="0" resource="0"
+              file="Source/ValueTreeManager.h"/>
+        <FILE id="tWZm5s" name="Save.h" compile="0" resource="0" file="Source/Save.h"/>
+        <FILE id="HGboeA" name="Directories.cpp" compile="1" resource="0" file="Source/Directories.cpp"/>
+        <FILE id="MQX48u" name="Directories.h" compile="0" resource="0" file="Source/Directories.h"/>
+      </GROUP>
+      <GROUP id="{9D1016B6-102D-E042-9112-81B22EA376A6}" name="Misc">
+        <FILE id="e2zrUW" name="IsomerScaleUser.h" compile="0" resource="0"
+              file="Source/IsomerScaleUser.h"/>
+        <FILE id="bqPNlr" name="Scales.cpp" compile="1" resource="0" file="Source/Scales.cpp"/>
+        <FILE id="rWAOIT" name="Scales.h" compile="0" resource="0" file="Source/Scales.h"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="Isomer2"
+                       enablePluginBinaryCopyStep="1"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="Isomer2"
+                       enablePluginBinaryCopyStep="1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../Documents/JUCE42/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Documents/JUCE42/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Documents/JUCE42/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Documents/JUCE42/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Documents/JUCE42/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Documents/JUCE42/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../Documents/JUCE42/modules"/>
+        <MODULEPATH id="juce_video" path="../../../Documents/JUCE42/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../Documents/JUCE42/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Documents/JUCE42/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Documents/JUCE42/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Documents/JUCE42/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Documents/JUCE42/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
